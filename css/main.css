@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    background-color: #26282E;
+    color: #209781;
+    font-family: 'Lobster', sans-serif;
+    font-size: 28px;
+}
+
+a:link {
+    color: #209781;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #209781;
+}
+
+a:active {
+    color: #209781;
+}
+
+a:hover {
+    color: #E9B64A;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 0;
+    letter-spacing: 5px;
+}
+
+header>p {
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+main {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.karty {
+    width: 125px;
+    height: 125px;
+    display: inline-block;
+    border: 4px solid #51c8b2;
+    border-radius: 4px;
+    margin: 5px;
+    background-image: url(../img/karta.png);
+    transition: all .3s ease-in-out;
+    filter: brightness(70%);
+}
+
+.kartyA {
+    width: 125px;
+    height: 125px;
+    display: inline-block;
+    border: 4px solid #E9B64A;
+    border-radius: 4px;
+    margin: 5px;
+    background-image: url(../img/karta.png);
+    transition: all .3s ease-in-out;
+    filter: brightness(100%);
+}
+
+.kartyA:hover {
+    cursor: default;
+}
+
+.karty:hover {
+    border: 4px solid #E9B64A;
+    cursor: pointer;
+    filter: brightness(100%);
+}
+
+.licznik {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.licznik>p {
+    margin: 0;
+    padding: 0;
+}
+
+article p {
+    text-align: center;
+    font-size: 48px;
+}
+
+.odNowa {
+    text-align: center;
+}
+
+.odNowa:hover {
+    cursor: pointer;
+    color: #E9B64A;
+}
